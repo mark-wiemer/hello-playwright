@@ -11,4 +11,4 @@ Getting started with [Playwright](https://playwright.dev)
 - Clone this repository or extract directory contents
 - Navigate to root folder for this repository
 - `npm i`
-- Validate build with `npm run main`
+- Validate build with `npm run test`

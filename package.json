@@ -1,23 +1,19 @@
 {
   "name": "hello-playwright",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Getting started with Playwright",
-  "license": "MIT",
-  "author": {
-    "name": "Mark Wiemer"
-  },
-  "main": "./out/index.js",
-  "types": "./out/index.d.ts",
-  "files": [
-    "out"
-  ],
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
   "scripts": {
-    "compile": "tsc",
-    "prepublish": "npm run compile",
-    "main": "node out/index.js"
+    "test": "playwright test"
   },
-  "devDependencies": {
+  "dependencies": {
     "node": "^18.15.0",
     "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
   }
 }
