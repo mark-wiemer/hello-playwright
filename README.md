@@ -1,6 +1,6 @@
-# Hello npm TypeScript
+# Hello Playwright
 
-Getting started with [npm](https://npmjs.com) and [TypeScript](https://typescriptlang.org)
+Getting started with [Playwright](https://playwright.dev)
 
 ## Machine dependencies
 

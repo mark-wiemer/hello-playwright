@@ -1,7 +1,7 @@
 {
-  "name": "hello-npm-typescript",
+  "name": "hello-playwright",
   "version": "0.1.0",
-  "description": "Getting started with npm and TypeScript",
+  "description": "Getting started with Playwright",
   "license": "MIT",
   "author": {
     "name": "Mark Wiemer"
