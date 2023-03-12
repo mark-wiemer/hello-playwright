@@ -1,0 +1,23 @@
+{
+  "name": "hello-npm-typescript",
+  "version": "0.1.0",
+  "description": "Getting started with npm and TypeScript",
+  "license": "MIT",
+  "author": {
+    "name": "Mark Wiemer"
+  },
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "files": [
+    "out"
+  ],
+  "scripts": {
+    "compile": "tsc",
+    "prepublish": "npm run compile",
+    "main": "node out/index.js"
+  },
+  "devDependencies": {
+    "node": "^18.15.0",
+    "typescript": "^4.9.5"
+  }
+}
