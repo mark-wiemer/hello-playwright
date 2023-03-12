@@ -12,7 +12,7 @@ export default defineConfig({
   reporter: "html",
   use: {
     actionTimeout: 0,
-    baseURL: "file://C:/Users/markw/repos/hello-playwright/",
+    baseURL: "file://" + __dirname + "/",
   },
 
   projects: [{ name: "Edge", use: { ...devices["Desktop Edge"] } }],
